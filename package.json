@@ -1,15 +1,36 @@
 {
-  "name": "greeting_package",
+  "name": "@hugaida/greeting-package",
   "version": "1.0.0",
+  "type": "module",
   "description": "Test package to play around with npm",
-  "main": "index.js",
+  "main": "lib/index.cjs",
+  "exports": {
+    "import": {
+      "default": "./lib/index.esm.js",
+      "types": "./lib/index.d.ts"
+    },
+    "require": {
+      "default": "./lib/index.cjs",
+      "types": "./lib/index.d.ts"
+    }
+  },
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/HugaidaS/greeting_package"
   },
-  "author": "HugaidaS",
-  "license": "MIT"
+  "author": "hugaida",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "4.22.4",
+    "rollup-plugin-delete": "^2.1.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.7.2"
+  }
 }
