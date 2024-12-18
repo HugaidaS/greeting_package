@@ -1,5 +1,15 @@
 # @hugaida/greeting-package
 
+## 1.2.0
+
+### Minor Changes
+
+- c152508: Added night greet feature
+
+### Patch Changes
+
+- d09cae6: Reverted afternoon greet message
+
 ## 1.1.1
 
 ### Patch Changes
