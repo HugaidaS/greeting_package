@@ -1,6 +1,6 @@
 {
   "name": "@hugaida/greeting-package",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "type": "module",
   "description": "Test package to play around with npm",
   "main": "lib/index.cjs",
