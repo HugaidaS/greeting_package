@@ -1,5 +1,11 @@
 # @hugaida/greeting-package
 
+## 1.2.2
+
+### Patch Changes
+
+- 2a9bdbf: Night greet changed
+
 ## 1.2.1
 
 ### Patch Changes
