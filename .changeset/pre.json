@@ -4,5 +4,7 @@
   "initialVersions": {
     "@hugaida/greeting-package": "1.2.1"
   },
-  "changesets": []
+  "changesets": [
+    "serious-years-rest"
+  ]
 }
