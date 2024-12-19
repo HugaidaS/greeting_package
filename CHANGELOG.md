@@ -1,5 +1,11 @@
 # @hugaida/greeting-package
 
+## 1.2.1
+
+### Patch Changes
+
+- ed91e29: Night greet changed text to something more general
+
 ## 1.2.0
 
 ### Minor Changes
