@@ -1,5 +1,12 @@
 # @hugaida/greeting-package
 
+## 2.0.0
+
+### Major Changes
+
+- 45487db: Updated monarch cats array
+- d646cfa: Created a monarch cats morning greet
+
 ## 2.0.0-beta.1
 
 ### Major Changes
