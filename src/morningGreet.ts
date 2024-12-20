@@ -1,5 +1,5 @@
 export const morningGreet = (name: string) => {
-  const monarchCats = ['Garfield', 'Felix']
+  const monarchCats = ['Garfield', 'Felix', "Grumpy"]
   let greet = `Good morning, `
 
   if (monarchCats.includes(name)) {
