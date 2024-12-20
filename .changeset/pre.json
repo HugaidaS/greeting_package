@@ -1,0 +1,11 @@
+{
+  "mode": "exit",
+  "tag": "beta",
+  "initialVersions": {
+    "@hugaida/greeting-package": "1.2.1"
+  },
+  "changesets": [
+    "red-hats-live",
+    "serious-years-rest"
+  ]
+}
